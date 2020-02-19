@@ -1,0 +1,48 @@
+.nav-container {
+ color: #1d2b39;
+}
+
+.nav-container hr {
+  border: 1.5px solid #1d2b39 !important;
+}
+
+.nav-container .panel {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  text-align: left;
+}
+
+.nav-container .panel .section {
+  width: 33.333%;
+  padding-bottom: 20px;
+}
+
+.nav-container .panel .section .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.nav-container .panel .section .item {
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+.nav-container .nav-list .nav-item {
+  padding: 0 10px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-container .nav-list .nav-item a:hover {
+  text-decoration: none;
+}
+
+.nav-container .nav-list .nav-item.active {
+  box-shadow: 0 3px 0 0 #fbce0a;
+}

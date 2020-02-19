@@ -1,0 +1,12 @@
+.announcement {
+  background: url(https://huckberry.imgix.net/announcements/000/000/125/desktop_background_images/original/standard_desktop.png?1576795692)
+    center center;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  line-height: 45px;
+  color: white;
+}
+
+.announcement a {
+  font-weight: 700;
+}

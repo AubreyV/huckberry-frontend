@@ -1,0 +1,12 @@
+.header {
+  text-align: center;
+  font-family: 'Franklin Gothic Condensed', sans-serif;
+}
+
+.header .container {
+  padding: 0 60px;
+}
+
+.header .container hr {
+  border-width: 0.5px;
+}

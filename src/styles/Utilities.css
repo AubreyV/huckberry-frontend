@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Franklin Gothic Condensed';
+  src: local('Franklin Gothic Condensed'),
+    url('../fonts/Franklin\ Gothic\ Light\ SSi\ Light.ttf') format('woff');
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: unset;
+}
+
+hr {
+  margin: 0;
+}
+
+.row {
+  width: 100%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.mr-3 {
+  margin-right: 3px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
